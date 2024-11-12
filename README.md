@@ -103,3 +103,27 @@ In this assignment, students worked on data analysis tasks involving file handli
    - The final list of annotations was printed in chronological order.
 
 ---
+## Assignment 6: Titanic Dataset Analysis
+
+### Objective
+In this assignment, students worked with the Titanic dataset to perform common data analysis tasks such as handling missing values, feature engineering, and filtering data. The goal was to practice data cleaning and transformation techniques that are often encountered in real-world data science projects.
+
+### Tasks and Solutions
+
+1. **Handle Missing Values**  
+   Students were required to analyze the dataset for missing values in each column and implement strategies to fill in or handle the missing data. For example, they filled missing values in numerical columns with statistical measures like the mean and filled categorical columns with the most frequent value.
+
+2. **Feature Engineering**  
+   A new feature (column) was created to provide additional insights into the dataset. In this case, students added a column to indicate the family size of each passenger. This was done by summing the number of siblings/spouses (`SibSp`) and parents/children (`Parch`) on board.
+
+3. **Data Filtering**  
+   The task involved filtering passengers based on specific criteria, such as those who paid a fare above the average fare. This demonstrated the ability to analyze data subsets based on calculated or given thresholds.
+
+4. **Basic Data Exploration**  
+   Several basic data exploration steps were carried out, such as counting missing values, identifying common trends, and understanding the structure of the dataset. This helped in the overall data cleaning process and set the foundation for more advanced analysis.
+
+### Libraries Used
+- Pandas
+- NumPy
+
+---
