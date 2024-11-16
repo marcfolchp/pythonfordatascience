@@ -77,6 +77,41 @@ This assignment introduces the principles of object-oriented programming (OOP) a
 
 ---
 
+## Assignment 4: Organizing and Analyzing Annotation Files
+
+### Objective
+This assignment focuses on processing and analyzing a collection of annotation files based on naming conventions. Key concepts include working with file operations, sorting, grouping, and performing aggregations using Python. The assignment also introduces modular and structured approaches to handle datasets effectively.
+
+### Tasks and Solutions
+1. **Identify incorrectly formatted files**  
+   Process a directory of annotation files to identify and count files that do not conform to the expected naming convention. Extract correctly formatted files for further analysis.
+
+2. **Group annotations by month**  
+   Extract the date component from the filenames, identify the month, and group files into separate folders based on their month. Use Python’s `os` and `shutil` modules to create directories and move files.
+
+3. **Count unique satellites**  
+   Extract the satellite identifier from the filenames, determine the total number of unique satellites, and count the number of annotations for each satellite.
+
+4. **Find the most frequently annotated satellite**  
+   Identify the satellite with the highest number of annotations by comparing counts, and display the results.
+
+5. **Count unique regions**  
+   Extract and analyze the region information from filenames, identify unique regions, and determine their count.
+
+6. **Sort and display filenames**  
+   Sort the filenames in reverse order and print them in their original format to ensure that the sorting process is working as expected.
+
+7. **Identify the most annotated month**  
+   Analyze the grouped annotations to find the month with the highest number of files and display the corresponding results.
+
+### Learning Outcomes
+- Gain experience with Python file operations using modules like `os` and `shutil`.
+- Practice data extraction, processing, and analysis using lists, sets, and dictionaries.
+- Develop skills in grouping and organizing files programmatically.
+- Enhance problem-solving abilities by applying structured approaches to data analysis tasks.
+
+---
+
 ## Assignment 5: Data Analysis and File Handling
 
 ### Objective
