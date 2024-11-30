@@ -138,6 +138,7 @@ In this assignment, students worked on data analysis tasks involving file handli
    - The final list of annotations was printed in chronological order.
 
 ---
+
 ## Assignment 6: Titanic Dataset Analysis
 
 ### Objective
@@ -162,3 +163,26 @@ In this assignment, students worked with the Titanic dataset to perform common d
 - NumPy
 
 ---
+
+## Assignment 7: Data Manipulation with Pandas
+
+### Objective
+In this assignment, we practiced various data manipulation techniques using Pandas. The focus was on operations like extracting initials from names, merging DataFrames, and creating new columns based on existing data.
+
+### Tasks and Solutions
+
+1. **Extract Professor Initials**  
+   - The task was to create a new column containing the initials of each professor from the `professor` column.
+   - We used the `apply()` function with a helper function to split the name and extract the initials.
+
+2. **Merge DataFrames on a Common Column**  
+   - We merged two DataFrames: one containing professor details and another containing courses they teach.
+   - The merge was performed on the `professor` column to combine the data.
+
+3. **Extract Last Name**  
+   - A new column with the professors' last names was created by splitting the `professor` column and extracting the second part (last name).
+
+### Learning Outcomes
+- Gained experience in **Pandas operations** like `apply()` and `merge()`.
+- Learned how to create new columns based on existing data.
+- Practiced basic data transformations and merging datasets.
