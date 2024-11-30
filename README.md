@@ -186,3 +186,36 @@ In this assignment, we practiced various data manipulation techniques using Pand
 - Gained experience in **Pandas operations** like `apply()` and `merge()`.
 - Learned how to create new columns based on existing data.
 - Practiced basic data transformations and merging datasets.
+
+---
+
+## Assignment 8: Data Visualization with Seaborn
+
+### Objective
+In this assignment, the focus was on exploring and visualizing data using **Seaborn** to gain insights into relationships between different variables. The tasks involved creating different types of visualizations to analyze the data's distribution, patterns, and correlations.
+
+### Tasks and Solutions
+
+1. **Visualizing Study Time by Student Name**  
+   The task was to create a line plot to visualize how the **study time** varied across different students. This helped understand individual differences in study time and identify students with the most or least study time.
+
+2. **Exploring Grade Distribution**  
+   You were required to plot a histogram to examine the distribution of **grades** among the students. The goal was to determine the most common grade ranges and identify any skewness or patterns in the data.
+
+3. **Analyzing Grades with an ECDF**  
+   The task involved creating an **ECDF plot** for the **grades** to understand the cumulative distribution. This helped determine what percentage of students scored below a certain threshold and allowed for comparison between different groups of students.
+
+4. **Comparing Grades Across Courses**  
+   You used a **stripplot** to show the **grades** for each **course**, allowing you to assess the spread of grades within each course. This helped identify which courses had the widest variations in grades.
+
+5. **Study Time Analysis by Gender**  
+   The task required creating a **swarmplot** to visualize the relationship between **study time** and **gender**. This helped compare how males and females spent their time studying, identifying any significant differences.
+
+6. **Average Grade Comparison Across Courses**  
+   You were asked to create a **pointplot** showing the average **grade** for each course. This plot helped compare the performance of students in different courses and identify which courses had the highest average grades.
+
+### Learning Outcomes
+- You gained experience in using **Seaborn** for visual exploration of data and identified patterns in relationships between different variables.
+- You learned to create and interpret different types of visualizations such as line plots, histograms, ECDFs, and categorical scatter plots to analyze both individual data points and overall distributions.
+- The assignment helped improve your ability to present data visually and draw conclusions based on observed trends.
+
